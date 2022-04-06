@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <title>Bitly app</title>
+</head>
+<div class="popup secondPage">
+    <div class="popupCenter">
+    <label for="newLinkName">Enter name</label><br>
+    <input type="text" id="newLinkName"><br>
+    <p class="popupP secondPage">Link istnieje</p>
+    <button class="createNewLink">CREATE!</button>
+    <button class='cancel'>Cancel</button>
+</div>
+</div>
+<div class="main">
+    <div class="wrap">
+    <h1>Bitly link generator</h1>
+    <div class="link">
+    <label for="urlLong">Create link</label><br>
+    <input type="text" id="urlLong" placeholder="PASTE A LONG URL">
+    <button class="create">CREATE!</button>
+    </div>
+    <span class="error"></span><button class="copy secondPage">Copy</button>
+</div>
+<div class="wrap2 secondPage"><h3 class="pusto">Add a new link!</h3>
+</div>
+</div>
+<span class="add secondPage">Important link?
+    <button class="addBTN"> Add to dashboard <i class="fas fa-plus"></i>
+    </button>
+</span>
+<div class="more"><h3>Important links</h3><i class="fas fa-angle-double-right"></i></div>
+<div class="more1 secondPage"><h3>Back</h3><i class="fas fa-angle-double-left"></i></div>
+<body>
+    <script src="js.js">
+    </script>
+</body>
+</html>
