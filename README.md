@@ -7,7 +7,7 @@ Features:
     
     Possibility to create your own dashboard, saved in localstorage
     
-    Quickly remove items from the 
+    Quickly remove items from the list
     
     Does not allow duplicate links in the dashboard
     
