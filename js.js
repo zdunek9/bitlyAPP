@@ -49,7 +49,7 @@ async function getNewLink() {
     const res = await fetch("https://api-ssl.bitly.com/v4/shorten", {
       method: "POST",
       headers: {
-        Authorization: "Bearer a1594cfc520f8098f2cb6473296395cf2e0874f", //Paste your API code   Bearer a1594cfc520f8098f2cb6473296395cf2e0874fd
+        Authorization: "", //Paste your API code
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
